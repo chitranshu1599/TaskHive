@@ -1,0 +1,634 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Taskhive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/common.css">
+    <link rel="stylesheet" href="/assets/css/styles.css">
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-md container-fulid fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="./index.html"><img src="./assets/images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./our-services.html">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./gallery.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./about_us.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./contact_us.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="mob-options">
+                <div class="nav-dropdown dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img class="dd-img" src="./assets/images/nav-dropdown.svg" alt="">
+                    </button>
+                    <ul class="dropdown-custom dropdown-menu">
+                        <li><a class="dropdown-item" href="./login.html">Login</a></li>
+                        <li><a class="dropdown-item" href="./sign_up.html">Sign up</a></li>
+                    </ul>
+                </div>
+                <div id="mob-nav-option" class="nav-dropdown dropdown">
+                    <button class="btn dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <img class="dd-img" src="./assets/images/mob-nav-options.png" alt="">
+                    </button>
+                    <ul class="dropdown-custom dropdown-menu">
+                        <li><a class="dropdown-item" href="./terms_&_conditions.html">Terms & conditions</a></li>
+                        <li><a class="dropdown-item" href="./privacy_policy.html">Privacy Policy</a></li>
+                        <li><a class="dropdown-item" href="./return_policy.html">Return Policy</a></li>
+                        <li><a class="dropdown-item" href="./shipping_policy.html">Shipping Policy</a></li>
+                        <li><a class="dropdown-item" href="./pricing_policy.html">Pricing Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="gallery-section">
+            <div class="gallery-part">
+                <h2 class="gallery-heading">Gallery</h2>
+                <div class="gallery-slid-show">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="gallery-image" id="main">
+                                <img class="gallery-img" src="/assets/images/g-beauty.svg" alt="g-beauty">
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-9 slider">
+                            <div class="gallery-content">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 class="g-content-head">Beauty Glow Cosmetic</h4>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content11.svg"
+                                            alt="g-content11">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content12.svg"
+                                            alt="g-content12">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content13.svg"
+                                            alt="g-content13">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content14.svg"
+                                            alt="g-content14">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content15.svg"
+                                            alt="g-content15">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content16.svg"
+                                            alt="g-content16">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="g-content-para">Read More</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-slid-show">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="gallery-image" id="main">
+                                <img class="gallery-img" src="/assets/images/g-precision.svg" alt="g-precision.svg">
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-9 slider">
+                            <div class="gallery-content">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 class="g-content-head">Precision Tech Solutions</h4>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content11.svg"
+                                            alt="g-content11">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content12.svg"
+                                            alt="g-content12">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content13.svg"
+                                            alt="g-content13">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content14.svg"
+                                            alt="g-content14">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content15.svg"
+                                            alt="g-content15">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content16.svg"
+                                            alt="g-content16">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="g-content-para">Read More</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-slid-show">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="gallery-image" id="main">
+                                <img class="gallery-img" src="/assets/images/g-telecom.svg" alt="g-telecom.svg">
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-9 slider">
+                            <div class="gallery-content">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 class="g-content-head">TeleCom Connect Pro</h4>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content11.svg"
+                                            alt="g-content11">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content12.svg"
+                                            alt="g-content12">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content13.svg"
+                                            alt="g-content13">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content14.svg"
+                                            alt="g-content14">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content15.svg"
+                                            alt="g-content15">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content16.svg"
+                                            alt="g-content16">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="g-content-para">Read More</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-slid-show">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="gallery-image" id="main">
+                                <img class="gallery-img" src="/assets/images/g-health.svg" alt="g-health.svg">
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-9 slider">
+                            <div class="gallery-content">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 class="g-content-head">Health Guardian Hub</h4>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content11.svg"
+                                            alt="g-content11">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content12.svg"
+                                            alt="g-content12">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content13.svg"
+                                            alt="g-content13">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content14.svg"
+                                            alt="g-content14">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content15.svg"
+                                            alt="g-content15">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content16.svg"
+                                            alt="g-content16">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="g-content-para">Read More</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-slid-show">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="gallery-image" id="main">
+                                <img class="gallery-img" src="/assets/images/g-eco.svg" alt="g-eco.svg">
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-9 slider">
+                            <div class="gallery-content">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 class="g-content-head">Eco Wonders Apparel</h4>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content11.svg"
+                                            alt="g-content11">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content12.svg"
+                                            alt="g-content12">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content13.svg"
+                                            alt="g-content13">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content14.svg"
+                                            alt="g-content14">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content15.svg"
+                                            alt="g-content15">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content16.svg"
+                                            alt="g-content16">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="g-content-para">Read More</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-slid-show">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="gallery-image" id="main">
+                                <img class="gallery-img" src="/assets/images/g-quantom.svg" alt="g-quantom.svg">
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-9 slider">
+                            <div class="gallery-content">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 class="g-content-head">Quantum Drive Systems</h4>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content11.svg"
+                                            alt="g-content11">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content12.svg"
+                                            alt="g-content12">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content13.svg"
+                                            alt="g-content13">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content14.svg"
+                                            alt="g-content14">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content15.svg"
+                                            alt="g-content15">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content16.svg"
+                                            alt="g-content16">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="g-content-para">Read More</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-slid-show">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="gallery-image" id="main">
+                                <img class="gallery-img" src="/assets/images/g-gourmet.svg" alt="g-gourmet.svg">
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-9 slider">
+                            <div class="gallery-content">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 class="g-content-head">Gourmet Flavor Crafters</h4>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content11.svg"
+                                            alt="g-content11">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content12.svg"
+                                            alt="g-content12">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content13.svg"
+                                            alt="g-content13">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content14.svg"
+                                            alt="g-content14">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content15.svg"
+                                            alt="g-content15">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content16.svg"
+                                            alt="g-content16">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="g-content-para">Read More</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-slid-show">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="gallery-image" id="main">
+                                <img class="gallery-img" src="/assets/images/g-green.svg" alt="g-green.svg">
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-9 slider">
+                            <div class="gallery-content">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 class="g-content-head">Green Earth Renewables</h4>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content11.svg"
+                                            alt="g-content11">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content12.svg"
+                                            alt="g-content12">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content13.svg"
+                                            alt="g-content13">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content14.svg"
+                                            alt="g-content14">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content15.svg"
+                                            alt="g-content15">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content16.svg"
+                                            alt="g-content16">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="g-content-para">Read More</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-slid-show">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="gallery-image" id="main">
+                                <img class="gallery-img" src="/assets/images/g-fitness.svg" alt="g-fitness.svg">
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-9 slider">
+                            <div class="gallery-content">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 class="g-content-head">Fitness Fusion Experts</h4>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content11.svg"
+                                            alt="g-content11">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content12.svg"
+                                            alt="g-content12">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content13.svg"
+                                            alt="g-content13">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content14.svg"
+                                            alt="g-content14">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content15.svg"
+                                            alt="g-content15">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content16.svg"
+                                            alt="g-content16">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="g-content-para">Read More</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="gallery-slid-show">
+                    <div class="row">
+                        <div class="col-md-3 col-sm-3">
+                            <div class="gallery-image" id="main">
+                                <img class="gallery-img" src="/assets/images/g-adventure.svg" alt="g-adventure.svg">
+                            </div>
+                        </div>
+                        <div class="col-md-9 col-sm-9 slider">
+                            <div class="gallery-content">
+                                <div class="row">
+                                    <div class="col-12">
+                                        <h4 class="g-content-head">Adventure Explorer Trips</h4>
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content11.svg"
+                                            alt="g-content11">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content12.svg"
+                                            alt="g-content12">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img margin-img" src="/assets/images/g-content13.svg"
+                                            alt="g-content13">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content14.svg"
+                                            alt="g-content14">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content15.svg"
+                                            alt="g-content15">
+                                    </div>
+                                    <div class="col-md-4 col-sm-4 col-6">
+                                        <img class="g-content-img" src="/assets/images/g-content16.svg"
+                                            alt="g-content16">
+                                    </div>
+                                    <div class="col-12">
+                                        <p class="g-content-para">Read More</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="mob-bottom-bar fixed-bottom">
+        <div class="mob-bottom-bar-options">
+            <a href="./index.html"><img src="./assets/images/mob-bottom-bar/home.svg" alt=""></a>
+            <span class="bottom-bar-active">Home</span>
+        </div>
+        <div class="mob-bottom-bar-options">
+            <a href="./our-services.html"><img src="./assets/images/mob-bottom-bar/services.svg" alt=""></a>
+            <span>Services</span>
+        </div>
+        <div class="mob-bottom-bar-options">
+            <a href="./gallery.html"><img src="./assets/images/mob-bottom-bar/portfolio-active.svg" alt=""></a>
+            <span>Portfolio</span>
+        </div>
+        <div class="mob-bottom-bar-options">
+            <a href="./about_us.html"><img src="./assets/images/mob-bottom-bar/about.svg" alt=""></a>
+            <span>About</span>
+        </div>
+        <div class="mob-bottom-bar-options">
+            <a href="./contact_us.html"><img src="./assets/images/mob-bottom-bar/contact.svg" alt=""></a>
+            <span>Contact</span>
+        </div>
+    </div>
+
+
+    <footer class="footer-custom container-fulid">
+        <div class="footer-div container">
+            <div class="foot-logo">
+                <img src="./assets/images/footer/footer-logo.svg" alt="">
+            </div>
+            <div class="foot-div">
+                <div class="foot-div-head">
+                    <h3>Quick Links</h3>
+                </div> 
+                <div class="foot-options">
+                  <div class="foot-div-body">
+                    <a href="./index.html">Home</a>
+                    <a href="./our-services.html">Services</a>
+                    <a href="./about_us.html">About</a>
+                    <a href="./gallery.html">Portfolio</a>
+                </div>
+                <div class="foot-div-body">
+                  <a href="./return_policy.html">Return Policy</a>
+                  <a href="./pricing_policy.html">Pricing Policy</a>
+                  <a href="./shipping_policy.html">Shipping Policy</a>
+                  <a href="./contact_us.html">Contact</a>
+              </div>
+                </div>
+            </div>
+            <div class="foot-div foot-div-contact">
+                <div class="foot-div-head">
+                    <h3>Contact</h3>
+                </div> 
+                <div class="foot-div-body">
+                    <div class="foot-contact">
+                        <img src="./assets/images/footer/location-icon.svg" alt="">
+                        <span>Sir Shah Suleman Road, Block 14 Gulshan-e-Iqbal, National Call Center Mashriq Center, Suite No 101-105 1st Floor , Karachi, Sindh 75500, PK</span>
+                    </div>
+                    <div class="foot-contact">
+                        <img src="./assets/images/footer/mobile-icon.svg" alt="">
+                        <span>+92 321 2425155 , +92 304 2204258</span>
+                    </div>
+                    <div class="foot-contact">
+                        <img src="./assets/images/footer/email-icon.svg" alt="">
+                        <span>amer.zahoor@ndcbpo.com bizdev@ndcbpo.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <hr>
+        <div class="footer-bottom container">
+            <div class="terms">
+                <a href="./terms_&_conditions.html">Terms & conditions</a>
+                <a href="./privacy_policy.html">Privacy Policy</a>
+            </div>
+            <div class="copyright">
+                <span>© 2023 Taskhive - Empowering Your Business</span>
+            </div>
+        </div>
+      </footer>
+
+      <div id="back-to-top" class="top-to-bottom-btn">
+        <a href="#"><div class="top-to-bottom"><img class="top-to-bottom-icon" src="/assets/images/top-to-bottom.png" alt="top-to-bottom"></div></a>
+    </div>
+      
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./assets/js/aos.js"></script>
+    <script src="./assets/js/gallery.js"></script>
+    <script src="./assets/js/back-to-top.js"></script>
+</body>
+
+</html>
