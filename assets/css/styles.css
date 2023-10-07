@@ -1151,6 +1151,14 @@ hr.hr-blue {
         border-radius: 0px 0px 0px 0px;
     }
 
+    .gallery-image {
+        width: 80%;
+    }
+
+    .top-to-bottom-btn {
+        bottom: 12%;
+    }
+
 }
 
 
@@ -1608,6 +1616,10 @@ hr.hr-blue {
     .gallery-part .slider {
         border-radius: 0px 0px 0px 0px;
     }
+
+    .top-to-bottom-btn {
+        bottom: 10%;
+    }
 }
 
 
@@ -2018,6 +2030,10 @@ hr.hr-blue {
         line-height: 18px;
         margin-right: 10px;
         margin-top: 3px;
+    }
+
+    .top-to-bottom-btn {
+        bottom: 20%;
     }
 }
 

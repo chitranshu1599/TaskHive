@@ -42,6 +42,7 @@ body {
 }
 
 .dropdown-custom {
+    left: -135px !important;
     border-radius: 10px;
     background: #FFF;
     box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.25);
@@ -53,6 +54,11 @@ body {
 
 .dd-img {
     height: 2rem;
+}
+
+.nav-options {
+    width: 26px;
+    height: 30px;
 }
 
 /* ###FOOTER### */
@@ -160,9 +166,9 @@ body {
     font-weight: 300;
 }
 
-#mob-nav-option {
+/* #mob-nav-option {
     display: none;
-}
+} */
 
 .mob-bottom-bar {
     display: none;
@@ -197,6 +203,11 @@ body {
         height: 1.8rem;
     }
 
+    .nav-options {
+        width: 32px;
+        height: 37px;
+    }
+
 
     /* ###BOTTOM_BAR### */
 
@@ -205,7 +216,7 @@ body {
         align-items: center;
         gap: 1rem;
         justify-content: space-between;
-        background: #0399FA;
+        background: #fff;
         box-shadow: 0px 0px 107px 0px rgba(255, 255, 255, 0.50) inset;
         backdrop-filter: blur(76px);
         padding: .5rem
@@ -228,8 +239,21 @@ body {
         font-size: .7rem;
     }
 
+    .bottom-bar-svg {
+        fill: #000;
+    }
+
+    .bottom-bar-svg-active {
+        fill: #FBCB1C !important;
+    }
+
+    .bottom-bar-span {
+        color: #000;
+    }
+
     .bottom-bar-active {
-        color: #fff;
+        color: #FBCB1C !important;
+        font-weight: 600;
     }
 
     /* ###FOOTER### */
@@ -275,7 +299,7 @@ body {
         align-items: center;
         gap: 1rem;
         justify-content: space-between;
-        background: #0399FA;
+        background: #fff;
         box-shadow: 0px 0px 107px 0px rgba(255, 255, 255, 0.50) inset;
         backdrop-filter: blur(76px);
         padding: .5rem
@@ -297,9 +321,21 @@ body {
     .mob-bottom-bar-options span {
         font-size: .7rem;
     }
+    .bottom-bar-svg {
+        fill: #000;
+    }
+
+    .bottom-bar-svg-active {
+        fill: #FBCB1C !important;
+    }
+
+    .bottom-bar-span {
+        color: #000;
+    }
 
     .bottom-bar-active {
-        color: #fff;
+        color: #FBCB1C !important;
+        font-weight: 600;
     }
 
     /* ###FOOTER### */
